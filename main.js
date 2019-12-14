@@ -36,7 +36,7 @@ function Header(jsonObj) {
 function dealsWeird(jsonObj) {
 
   //bind deals object to a variables
-  let weirdDeals = jsonObj.deals;
+  let weirdDeals = jsonObj.deal;
 
   for (let i = 0; i < weirdDeals.length; i++) {
 
