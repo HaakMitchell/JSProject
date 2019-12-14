@@ -38,7 +38,7 @@ function dealsWeird(jsonObj) {
   //bind deals object to a variables
   let weirdDeals = jsonObj.deals;
 
-  for (let i = 0; i < weirdDeals.length i++) {
+  for (let i = 0; i < weirdDeals.length; i++) {
 
     //create elements
     let article = document.createElement('article');
